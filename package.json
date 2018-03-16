@@ -1,0 +1,21 @@
+{
+  "name": "html5game",
+  "version": "1.0.0",
+  "description": "html5game",
+  "main": "index.html",
+  "scripts": {
+    "test": "test",
+    "start": "budo src/main.js:build.js --live -- -t [ babelify --presets [ env ] ]"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "dagmar",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "budo": "^11.2.0"
+  }
+}
