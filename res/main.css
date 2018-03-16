@@ -1,5 +1,3 @@
 #board {
-  width: 640px;
-  height: 480px;
-  margin: auto;
-  background-color: dodgerblue; }
+  position: relative;
+  background-color: #8CD; }
